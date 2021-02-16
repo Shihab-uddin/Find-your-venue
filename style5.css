@@ -1,0 +1,91 @@
+/*Import the fonts used*/
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+/*Basic reset*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Custom properties*/
+:root {
+    --dark-color: #2d2c2c;
+    --purple-solid: #350a4f;
+    --purple-transparent: rgba(53, 10, 79, .7);
+    --purple-transparent-alt: rgba(53, 10, 79, .5);
+    --purple-light: #8f50fb;
+    --yellow-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
+    --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+}
+
+/*admin style*/
+
+
+.adminp{
+    align-items: center;
+    line-height: 1;
+    text-shadow: 10x 10x 1rem rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.admintitle{
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-right: 20rem;
+
+}
+
+.adminpayment{
+    background-color: #8f50fb;
+}
+
+.adminreview{
+    background-color: var(--purple-solid);
+}
+
+.main-heading{
+    padding-left: 5rem;
+}
+
+.t_hall{
+    width: 100%;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 2rem,0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.t_vendor{
+    width: 100%;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 2rem,0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.t_pay{
+    width: 50%;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 2rem,0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.t_review{
+    width: 50%;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 2rem,0;
+    
+}
+
+td img{
+    width:80px;
+    height:80px;
+  }
+  td{
+    text-align: center;
+  }
